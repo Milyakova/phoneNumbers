@@ -1,0 +1,24 @@
+{
+  "apiEndPoint": "https://phone-numbers-firebase-default-rtdb.europe-west1.firebasedatabase.app/",
+  "isFireBase": "true",
+  "countryCode": [
+    {
+      "_id": "p88733",
+      "country": "Russia",
+      "combination": "+7",
+      "color": "primary"
+    },
+    {
+      "_id": "g88483",
+      "country": "Uzbekistan",
+      "combination": "+998",
+      "color": "warning"
+    },
+    {
+      "_id": "w80983",
+      "country": "Belarus",
+      "combination": "+375",
+      "color": "success"
+    }
+  ]
+}
