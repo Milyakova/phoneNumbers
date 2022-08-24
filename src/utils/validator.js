@@ -8,6 +8,7 @@ export function validator(data, config) {
       case "isNumber":
         const regExp = /^\d{3,10}$/g;
         if (!regExp.test(data)) return config.message;
+        break;
       default:
         break;
     }

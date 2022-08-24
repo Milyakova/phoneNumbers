@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
 import { paginate } from "../../utils/paginate";
 import GroupList from "./groupList";
 import Pagination from "./pagination";
@@ -8,13 +7,8 @@ import PhoneTable from "./phoneTable";
 import _ from "lodash";
 import Form from "./form";
 import { useSelector } from "react-redux";
-import {
-  getNumbersList,
-  loadNumbersList,
-  removeNumber,
-  updateNumber,
-} from "../store/numbers";
-import { getCountryCodes, loadcountryCodesList } from "../store/countryCodes";
+import { getNumbersList, removeNumber, updateNumber } from "../store/numbers";
+import { getCountryCodes } from "../store/countryCodes";
 import { useDispatch } from "react-redux";
 
 const Numbers = () => {
@@ -115,7 +109,5 @@ const Numbers = () => {
     </div>
   );
 };
-Numbers.propTypes = {
-  numbers: PropTypes.array,
-};
+
 export default Numbers;

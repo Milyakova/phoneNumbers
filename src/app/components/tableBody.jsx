@@ -35,5 +35,6 @@ const TableBody = ({ data, columns, countries }) => {
 TableBody.propTypes = {
   data: PropTypes.array.isRequired,
   columns: PropTypes.object.isRequired,
+  countries: PropTypes.array.isRequired,
 };
 export default TableBody;

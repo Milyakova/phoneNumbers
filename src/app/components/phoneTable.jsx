@@ -12,7 +12,6 @@ const PhoneTable = ({
   currentSort,
   onToggleBookMark,
   onDelete,
-  ...rest
 }) => {
   const countries = useSelector(getCountryCodes());
   const columns = {

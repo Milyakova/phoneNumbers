@@ -8,6 +8,7 @@ const Form = () => {
   const [data, setData] = useState({
     countryCode: "p88733",
     number: "",
+    bookmark: false,
   });
   const [errors, setErrors] = useState({});
 

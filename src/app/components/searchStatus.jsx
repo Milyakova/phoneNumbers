@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const SearchStatus = ({ length }) => {
   const renderPhrase = (length) => {
@@ -16,5 +17,7 @@ const SearchStatus = ({ length }) => {
     </h3>
   );
 };
-
+SearchStatus.propTypes = {
+  length: PropTypes.number.isRequired,
+};
 export default SearchStatus;
