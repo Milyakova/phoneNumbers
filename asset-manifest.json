@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phoneNumbers/static/css/main.28cb4b2c.css",
+    "main.js": "/phoneNumbers/static/js/main.51f8f324.js",
+    "static/js/787.9d41d575.chunk.js": "/phoneNumbers/static/js/787.9d41d575.chunk.js",
+    "index.html": "/phoneNumbers/index.html",
+    "main.28cb4b2c.css.map": "/phoneNumbers/static/css/main.28cb4b2c.css.map",
+    "main.51f8f324.js.map": "/phoneNumbers/static/js/main.51f8f324.js.map",
+    "787.9d41d575.chunk.js.map": "/phoneNumbers/static/js/787.9d41d575.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28cb4b2c.css",
+    "static/js/main.51f8f324.js"
+  ]
+}
